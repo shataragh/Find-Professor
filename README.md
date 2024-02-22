@@ -1,1 +1,3 @@
-# Find-Professor
+The purpose of this program in the future could be to assist students, researchers, or anyone else interested in finding information about professors in specific fields of study. It can help users discover academic pages related to professors' research, publications, and affiliations, as well as LinkedIn profiles providing additional professional information.
+
+Furthermore, this program can be a useful tool for networking purposes, allowing users to connect with professors and professionals in their respective fields. By providing a convenient interface for searching academic pages and LinkedIn profiles, the program can streamline the process of finding relevant contacts and information within the academic community.
