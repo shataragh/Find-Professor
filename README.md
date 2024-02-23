@@ -1,4 +1,4 @@
-Here are the details and features of the application generated:
+Here are the details and features of the application introduced:
 
 Graphical User Interface (GUI): The program utilizes Tkinter, a standard GUI toolkit for Python, to create a user-friendly interface.
 
