@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://yourimageshare.com/ib/JUZqnD0xLu.png" alt="Professor Finder Screenshot" width="800"/>
+</div>
+
+
 # 🎓 Professor Finder CLI
 
 Professor Finder is a privacy-conscious, terminal-based search tool for discovering academic profiles. It uses search engine scraping (Google, DuckDuckGo) with no API keys, simulates human behavior, and ensures clean, unique result output.
