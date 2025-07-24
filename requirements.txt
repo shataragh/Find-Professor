@@ -1,2 +1,5 @@
 googlesearch-python
 colorama
+beautifulsoup4
+requests
+lxml
