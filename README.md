@@ -1,17 +1,29 @@
-# 🎓 Professor Finder
+# 🎓 Professor Finder CLI
 
-A terminal-based search tool that helps you find academic profiles using Google. Enter a keyword and get curated `.edu` and LinkedIn results—complete with emoji feedback, colors, countdown timers, and good behavior delays to avoid bans.
+Professor Finder is a privacy-conscious, terminal-based search tool for discovering academic profiles. It uses search engine scraping (Google, DuckDuckGo) with no API keys, simulates human behavior, and ensures clean, unique result output.
 
-## 🚀 Features
-- Google-powered keyword search for professors
-- Emojis and color-coded terminal interface (via Colorama)
-- Countdown timer to respect Google request limits
-- User-friendly error handling
+Whether you're navigating censorship, building open-source research tools, or running remote queries in CLI-only environments, Professor Finder is fast, flexible, and stealth-friendly.
 
-## 🔧 Installation
+---
+
+## 📦 Features
+
+- 🔍 Keyword-based professor search
+- ✅ Unique result enforcement (no duplicates)
+- ⏳ Randomized human-like wait delays between queries
+- 🔄 DuckDuckGo fallback if Google fails or blocks
+- 🧠 Variable query phrasing to mimic curiosity
+- 🎨 Color-coded terminal interface with emoji feedback
+- 🔐 Pure scraping — no API keys, cookies, or browser dependencies
+- 🌍 Compatible with WSL, VPNs, proxychains, and Tor
+
+---
+
+## ⚙️ Installation
+
+Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/professor-finder.git
+git clone https://github.com/shataragh/professor-finder.git
 cd professor-finder
 pip install -r requirements.txt
-
