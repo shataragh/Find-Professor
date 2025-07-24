@@ -1,21 +1,32 @@
-# Security Policy
+# 🔐 Security Policy
 
-## Supported Versions
+## 📦 Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+| Version        | Supported          |
+|----------------|--------------------|
+| Latest Release | ✅ Yes              |
+| Older Versions | ❌ Not maintained  |
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Professor Finder is a single-file CLI tool. We recommend users always use the latest version for optimal behavior and security.
 
-## Reporting a Vulnerability
+---
 
-Use this section to tell people how to report a vulnerability.
+## 🧭 Reporting a Vulnerability
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If you discover a security vulnerability related to scraping behavior, query handling, or output sanitization, please report it through GitHub Issues or by contacting the maintainer directly.
+
+- 📫 GitHub Issues: [Open an Issue](https://github.com/YOUR_USERNAME/professor-finder/issues)
+- 💬 Expected response time: within 72 hours
+
+Please include:
+- A clear description of the issue
+- Steps to reproduce (if applicable)
+- Any recommended fixes or workarounds
+
+---
+
+## 🚨 Disclosure Notes
+
+We support responsible disclosure. If the vulnerability poses a privacy risk in censorship-prone regions, please label it accordingly.
+
+Thank you for helping keep open-source tools safe and resilient.
