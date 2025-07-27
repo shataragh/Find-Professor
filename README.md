@@ -1,26 +1,37 @@
 <div align="center">
-  <img src="https://yourimageshare.com/ib/JUZqnD0xLu.png" alt="Professor Finder Screenshot" width="800"/>
+  <img src="https://yourimageshare.com/ib/JUZqnD0xLu.png" alt="Professor Finder CLI Screenshot" width="800"/>
 </div>
 
+<h1 align="center">🎓 Professor Finder CLI</h1>
+<p align="center">
+  <strong>Lightweight CLI tool for academic profile discovery — API-free, privacy-conscious, and censorship-resilient.</strong>
+</p>
 
-# 🎓 Professor Finder CLI
-
-Professor Finder is a privacy-conscious, terminal-based search tool for discovering academic profiles. It uses search engine scraping (Google, DuckDuckGo) with no API keys, simulates human behavior, and ensures clean, unique result output.
-
-Whether you're navigating censorship, building open-source research tools, or running remote queries in CLI-only environments, Professor Finder is fast, flexible, and stealth-friendly.
+<div align="center">
+  <a href="https://github.com/shataragh/professor-finder/stargazers"><img src="https://img.shields.io/github/stars/shataragh/professor-finder?style=social" alt="GitHub Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+  <a href="https://github.com/shataragh/professor-finder/commits/main"><img src="https://img.shields.io/github/last-commit/shataragh/professor-finder.svg" alt="Last Commit"></a>
+</div>
 
 ---
 
-## 📦 Features
+## 🚀 About
 
-- 🔍 Keyword-based professor search
-- ✅ Unique result enforcement (no duplicates)
-- ⏳ Randomized human-like wait delays between queries
-- 🔄 DuckDuckGo fallback if Google fails or blocks
-- 🧠 Variable query phrasing to mimic curiosity
-- 🎨 Color-coded terminal interface with emoji feedback
-- 🔐 Pure scraping — no API keys, cookies, or browser dependencies
-- 🌍 Compatible with WSL, VPNs, proxychains, and Tor
+Professor Finder is a terminal-based search utility that helps users locate academic websites or professional profiles using keyword queries.
+
+It simulates human browsing behavior, avoids duplicate results, and gracefully falls back to DuckDuckGo if Google blocks scraping — all without browser automation or tracking.
+
+---
+
+## 🔧 Features
+
+- 🔍 Simple keyword-based professor search (site:.edu, LinkedIn, etc.)
+- ⏳ Human-like countdown between requests to avoid rate-limiting
+- 🧠 Randomized suffixes for natural query phrasing
+- 🔄 Automatic fallback to DuckDuckGo if Google fails
+- ✅ Unique result enforcement
+- 🎨 Emoji-enhanced, color-coded terminal output
+- 🔐 Pure scraping — no API keys, cookies, or headless browsers
 
 ---
 
