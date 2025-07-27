@@ -2,44 +2,43 @@
   <img src="https://yourimageshare.com/ib/JUZqnD0xLu.png" alt="Professor Finder CLI Screenshot" width="800"/>
 </div>
 
-<h1 align="center">🎓 Professor Finder CLI</h1>
+<h1 align="center">🎓 Find-Professor CLI</h1>
 <p align="center">
-  <strong>Lightweight CLI tool for academic profile discovery — API-free, privacy-conscious, and censorship-resilient.</strong>
+  <strong>Terminal-based academic profile discovery — API-free, stealth-friendly, and censorship-resilient.</strong>
 </p>
 
 <div align="center">
-  <a href="https://github.com/shataragh/professor-finder/stargazers"><img src="https://img.shields.io/github/stars/shataragh/professor-finder?style=social" alt="GitHub Stars"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://github.com/shataragh/professor-finder/commits/main"><img src="https://img.shields.io/github/last-commit/shataragh/professor-finder.svg" alt="Last Commit"></a>
+  <a href="https://github.com/shataragh/Find-Professor/stargazers"><img src="https://img.shields.io/github/stars/shataragh/Find-Professor?style=social" alt="GitHub Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/shataragh/Find-Professor" alt="MIT License"></a>
+  <a href="https://github.com/shataragh/Find-Professor/commits/main"><img src="https://img.shields.io/github/last-commit/shataragh/Find-Professor" alt="Last Commit"></a>
 </div>
 
 ---
 
-## 🚀 About
+## 🧭 Overview
 
-Professor Finder is a terminal-based search utility that helps users locate academic websites or professional profiles using keyword queries.
-
-It simulates human browsing behavior, avoids duplicate results, and gracefully falls back to DuckDuckGo if Google blocks scraping — all without browser automation or tracking.
+**Find-Professor** is a command-line tool that helps users discover academic profiles and professional pages using keyword-based search.  
+It mimics human browsing behavior, rotates query phrasing, and gracefully falls back to DuckDuckGo if Google blocks scraping — all without browser automation or API keys.
 
 ---
 
 ## 🔧 Features
 
-- 🔍 Simple keyword-based professor search (site:.edu, LinkedIn, etc.)
-- ⏳ Human-like countdown between requests to avoid rate-limiting
-- 🧠 Randomized suffixes for natural query phrasing
-- 🔄 Automatic fallback to DuckDuckGo if Google fails
-- ✅ Unique result enforcement
-- 🎨 Emoji-enhanced, color-coded terminal output
-- 🔐 Pure scraping — no API keys, cookies, or headless browsers
+- 🔍 Keyword-based search with `.edu` and LinkedIn targeting
+- 🧠 Randomized suffixes for natural query variation
+- ⏳ Human-like countdown delays between requests
+- 🔄 DuckDuckGo fallback if Google fails or blocks
+- ✅ Unique result enforcement (no duplicates)
+- 🎨 Color-coded terminal output with emoji feedback
+- 🔐 No cookies, browser automation, or API keys required
 
 ---
 
 ## ⚙️ Installation
 
-Clone the repo and install dependencies:
+Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/shataragh/professor-finder.git
-cd professor-finder
+git clone https://github.com/shataragh/Find-Professor.git
+cd Find-Professor
 pip install -r requirements.txt
