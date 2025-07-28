@@ -32,12 +32,16 @@ jobs:
     - name: 🔍 Verify dist artifacts
       run: ls -lh dist/
 
+    - name: 🧪 Validate dist metadata
+      run: twine check dist/*
+
     - name: 🚀 Publish to PyPI
       uses: pypa/gh-action-pypi-publish@v1.8.8
       with:
         user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN }}
-      continue-on-error: false  # Make sure failure exits workflow
+        password: ${{ secrets.PYPI_TOKEN }}  # Use your real secret name
+        repository_url: https://upload.pypi.org/legacy/
+      continue-on-error: false
 
     - name: ✅ Notify success
       if: success()
