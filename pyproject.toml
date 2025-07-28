@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find-professor"
+version = "0.1.1"
+description = "CLI tool to find professors by keyword"
+authors = [{ name = "Sirvan Abbasbeigi", email = "sirvan@example.com" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/shataragh/Find-Professor"
+Repository = "https://github.com/shataragh/Find-Professor"
+Issues = "https://github.com/shataragh/Find-Professor/issues"
